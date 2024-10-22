@@ -1,4 +1,4 @@
-# Additional Documentation for SPOT
+# Background Documentation for BODe
 ## SPOT Identification
 - Model: Explorer
 - S/N: spot-BD-10740003
