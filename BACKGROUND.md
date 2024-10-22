@@ -15,38 +15,38 @@ Core I/O IP Address: 192.168.80.3:21443
 a.	Power on Controller
 3)	Press Motor Lockout button (will light up Red)
 ![Controller](https://github.com/user-attachments/assets/3a06b317-98c6-480f-bfcd-eb4d70d69a02)
-   Controller:
+Controller:
 1)	Power on controller and open BD (Spot) App
 2)	Select SPOT Network: spot-BD-10740003
 3)	Enter Username & Password
 4)	Select Operate
-   API:
+API:
 1)	A
 2)	B
 3)	C
 4)	D
 ### Controlling SPOT
-   Controller:
+Controller:
 1)	Select Walk from action menu. If Spot is sitting, it will stand up.
 2)	Use the right joystick to turn Spot.
 3)	Use left joystick to move Spot’s body forward, backward, right, and left.
 4)	To stop movement, release fingers from joysticks
-   API:
+API:
 1)	A
 2)	B
 3)	C
 4)	D
 ### Shutdown Procedure
-   SPOT:
+ SPOT:
 1)	Sit Spot (laying on the ground)
 2)	Power off motors with controller
 3)	Press Motor Lockout button (no light)
 4)	Press and Hold Power button
-   Controller/Tablet:
+Controller/Tablet:
 1)	Power off motors when directed
 2)	Close BD (Spot) App
 3)	Power off controller
-   API:
+API:
 1)	A
 2)	B
 3)	C
