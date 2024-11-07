@@ -5,7 +5,7 @@
 - P/N: 02-040236-001
 - PDB S/N: a2-20416-0001
 - SIUE ID: E891632
-- IP Address: https://192.168.80.3
+- IP Address: 192.168.80.3
 - Core I/O IP Address: 192.168.80.3:21443
 ## Operations
 ### Start-Up Procedure
@@ -22,12 +22,10 @@ Controller:
 4.	Select Operate
 
 API:
+
 1.	Follow the Boston [Dynamics quickstart guide](https://dev.bostondynamics.com/docs/python/quickstart) to set up the python programming environment.
-2.	The robot may be controlled with the keyboard using the [wasd example](https://dev.bostondynamics.com/python/examples/wasd/readme) in the python SDK.
-	
- 	1. 	Connect the development device to spots Wi-Fi network.
- 	2. 	Navigate to the wasd example directory within the SDK and install requirements.txt using <code>python3 -m pip install -r requirements.txt</code>.
-  	3.	In the same directory, run the program using <code>python3 wasd.py ROBOT_IP</code>.
+2.	Connect the development device to spot's Wi-Fi network.
+
 
 ### Controlling SPOT
 Controller:
@@ -37,10 +35,11 @@ Controller:
 4.	To stop movement, release fingers from joysticks
 
 API:
-1.	A
-2.	B
-3.	C
-4.	D
+
+1.	The robot may be controlled with the keyboard using the [wasd example](https://dev.bostondynamics.com/python/examples/wasd/readme) in the python SDK.
+2. 	Navigate to the wasd example directory within the SDK and install requirements.txt using <code>python3 -m pip install -r requirements.txt</code>.
+3.	In the same directory, run the program using <code>python3 wasd.py 192.168.80.3</code>.
+4.	The controls for spot will be listed in a table within the terminal.
 ### Shutdown Procedure
 SPOT:
 1.	Sit Spot (laying on the ground)
@@ -54,10 +53,8 @@ Controller/Tablet:
 3.	Power off controller
 
 API:
-1.	A
-2.	B
-3.	C
-4.	D
+1.	Make sure spot is sitting when closing the program as unexpected disconnection can cause sudden motor shutdown.
+2.	Close the program by pressing tab or by closing the terminal.
 ## Updates
 ### Updating Software
 ![Update Warning](https://github.com/user-attachments/assets/07e04fa9-eb57-4ed2-8553-18d6811303ac)
