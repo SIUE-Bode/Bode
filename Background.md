@@ -23,7 +23,7 @@ Controller:
 
 API:
 
-1.	Follow the Boston [Dynamics quickstart guide](https://dev.bostondynamics.com/docs/python/quickstart) to set up the python programming environment.
+1.	Follow the [Boston Dynamics quickstart guide](https://dev.bostondynamics.com/docs/python/quickstart) to set up the python programming environment.
 2.	Connect the development device to spot's Wi-Fi network.
 
 
@@ -53,8 +53,8 @@ Controller/Tablet:
 3.	Power off controller
 
 API:
-1.	Make sure spot is sitting when closing the program as unexpected disconnection can cause sudden motor shutdown.
-2.	Close the program by pressing tab or by closing the terminal.
+1.	After ensuring spot is sitting, close the program by pressing tab or by closing the terminal.
+
 ## Updates
 ### Updating Software
 ![Update Warning](https://github.com/user-attachments/assets/07e04fa9-eb57-4ed2-8553-18d6811303ac)
