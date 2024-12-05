@@ -11,4 +11,4 @@ To be able to identify the ball, first training data is collected. Spot was used
 
 <img src="https://github.com/user-attachments/assets/3e038394-df52-4243-81b7-7247ddc7f104" alt="Bounding box being drawn around dogtoy" width="600"/>
 
-These training data are then fed into tensorflow along with pretrained multi-purpose model to create a model which can effectively identify the ball.
+These training data are then fed into tensorflow along with a pretrained multi-purpose model to create a model which can effectively identify the ball.
