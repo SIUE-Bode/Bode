@@ -23,8 +23,8 @@ Controller:
 
 API:
 
-1.	Follow the [Boston Dynamics quickstart guide](https://dev.bostondynamics.com/docs/python/quickstart) to set up the python programming environment.
-2.	Connect the development device to spot's Wi-Fi network.
+1.	Follow the [Boston Dynamics quickstart guide](https://dev.bostondynamics.com/docs/python/quickstart) to set up the python programming environment on your PC.
+2.	Connect the development device (PC) to spot's Wi-Fi network.
 
 
 ### Controlling SPOT
